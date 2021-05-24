@@ -1,0 +1,16 @@
+---
+title: "Prueba3"
+author: "Francisco Rodríguez"
+date: "24/5/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(combinat)
+for(permutacion in permn(3)) print(permutacion)
+```
+
